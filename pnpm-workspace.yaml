@@ -1,0 +1,18 @@
+packages:
+  # all packages in direct subdirs of packages/
+  - 'packages/*'
+  # all packages in subdirs of components/
+  - 'components/**'
+  # exclude packages that are inside test directories
+  - '!**/test/**'
+
+catalogs:
+  react16:
+    react: ^16.7.0
+    react-dom: ^16.7.0
+  react17:
+    react: ^17.0.0
+    react-dom: ^17.0.0
+  react18:
+    react: 18.3.1
+    react-dom: 18.3.1

@@ -1,0 +1,7 @@
+{
+  "name": "react16",
+  "dependencies": {
+    "react": "catalog:react16",
+    "react-dom": "catalog:react16"
+  }
+}
